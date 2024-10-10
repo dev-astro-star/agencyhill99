@@ -33,17 +33,17 @@ const socialLinks = [
   {
     label: 'Twitter',
     icon: <TwitterIcon />,
-    href: 'https://twitter.com/'
+    href: 'https://twitter.com'
   },
   {
     label: 'Telegram',
     icon: <TelegramIcon />,
-    href: 'https://t.me/'
+    href: 'https://t.me/+2AurfGZWxZo0MDgx'
   },
   {
     label: 'Discord',
     icon: <DiscordIcon />,
-    href: 'https://discord.gg'
+    href: 'https://discord.gg/FzmRN76J'
   }
 ]
 
@@ -96,7 +96,7 @@ const Footer = () => {
         <Grid item xs={2} md={1} sx={{textAlign: 'center'}}>
           <IconButton 
             component="a"
-            href=""
+            href="admin@agencyhill99.com"
             aria-label="Email"
           >
             <EmailIcon />
