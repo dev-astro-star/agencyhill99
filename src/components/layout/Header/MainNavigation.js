@@ -94,7 +94,7 @@ const MainNavigation = () => {
           </Box>
           <Box sx={{marginLeft: "auto"}}>
             <button style={{borderRadius: '30px', color: 'white', background: '#1cac1d', fontSize: '11px'}}>
-              <a download href="/Installer.exe" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
+              <a download href="https://drive.google.com/uc?id=166zcmpqj-C7NPltm4iwRolz8XuxqZIXt" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
                 Installer (Win)&nbsp;&nbsp;<i className='fa fa-download'></i> 
               </a>
             </button>
