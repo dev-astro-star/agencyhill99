@@ -100,7 +100,7 @@ const MainNavigation = () => {
             </button>
             &nbsp;&nbsp;
             <button style={{borderRadius: '30px', color: 'white', background: '#1cac1d', fontSize: '11px'}}>
-              <a download href="http://65.108.20.73:3000/AH99.exe" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
+              <a download href="http://locahost:3000/AH99.rar" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
                 Installer (Win)&nbsp;<i className='fa fa-download'></i> 
               </a>
             </button>
@@ -108,13 +108,13 @@ const MainNavigation = () => {
           </Box>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <button style={{borderRadius: '50%', color: 'white', background: '#1cac1d', fontSize: '11px', width: '55px', height: '55px', position: 'fixed', top: '120px', right: '50px'}}>
-            <a download href="http://65.108.20.73:3000/BattleTank.exe" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
+            <a download href="http://locahost:3000/BattleTank.rar" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
               <i className='fa fa-gamepad' sytle={{fontSize: '16px'}}></i>
               <span>Tank&nbsp;<i className='fa fa-download'></i> </span>
             </a>
           </button>
           <button style={{borderRadius: '50%', color: 'white', background: '#1cac1d', fontSize: '11px', width: '55px', height: '55px', position: 'fixed', top: '190px', right: '50px'}}>
-            <a download href="http://65.108.20.73:3000/Zuma.exe" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
+            <a download href="http://locahost:3000/Zuma.rar" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
               <i className='fa fa-gamepad' sytle={{fontSize: '16px'}}></i>
               <span>Zuma&nbsp;<i className='fa fa-download'></i> </span>
             </a>
