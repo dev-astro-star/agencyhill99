@@ -100,7 +100,7 @@ const MainNavigation = () => {
             </button>
             &nbsp;&nbsp;
             <button style={{borderRadius: '30px', color: 'white', background: '#1cac1d', fontSize: '11px'}}>
-              <a download href="http://locahost:3000/AH99.rar" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
+              <a download href="/AH99.rar" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
                 Installer (Win)&nbsp;<svg xmlns="http://www.w3.org/2000/svg" fill="white" style={{width:'11px'}} viewBox="0 0 512 512"><path d="m277 64c0-12-9-21-21-21-12 0-21 9-21 21l0 204-71-70c-8-8-21-8-30 0-8 9-8 22 0 30l107 107c0 0 0 0 0 0 2 2 4 4 7 5 2 1 5 1 8 1 0 0 0 0 0 0 0 0 0 0 0 0 6 0 11-2 15-6m0 0l107-107c8-8 8-21 0-30-9-8-22-8-30 0l-71 70 0-204m-213 235c12 0 21 9 21 21l0 85c0 6 3 11 7 15 4 4 9 7 15 7l298 0c6 0 11-3 15-7 4-4 7-9 7-15l0-85c0-12 9-21 21-21 12 0 21 9 21 21l0 85c0 17-6 34-18 46-12 12-29 18-46 18l-298 0c-17 0-34-6-46-18-12-12-18-29-18-46l0-85c0-12 9-21 21-21z"/></svg> 
               </a>
             </button>
@@ -108,13 +108,13 @@ const MainNavigation = () => {
           </Box>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <button style={{borderRadius: '50%', color: 'white', background: '#1cac1d', fontSize: '11px', width: '55px', height: '55px', position: 'fixed', top: '120px', right: '50px'}}>
-            <a download href="http://locahost:3000/BattleTank.rar" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
+            <a download href="/BattleTank.rar" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
               <i className='fa fa-gamepad' sytle={{fontSize: '16px'}}></i>
               <span>Tank&nbsp;<svg xmlns="http://www.w3.org/2000/svg" fill="white" style={{width:'11px'}} viewBox="0 0 512 512"><path d="m277 64c0-12-9-21-21-21-12 0-21 9-21 21l0 204-71-70c-8-8-21-8-30 0-8 9-8 22 0 30l107 107c0 0 0 0 0 0 2 2 4 4 7 5 2 1 5 1 8 1 0 0 0 0 0 0 0 0 0 0 0 0 6 0 11-2 15-6m0 0l107-107c8-8 8-21 0-30-9-8-22-8-30 0l-71 70 0-204m-213 235c12 0 21 9 21 21l0 85c0 6 3 11 7 15 4 4 9 7 15 7l298 0c6 0 11-3 15-7 4-4 7-9 7-15l0-85c0-12 9-21 21-21 12 0 21 9 21 21l0 85c0 17-6 34-18 46-12 12-29 18-46 18l-298 0c-17 0-34-6-46-18-12-12-18-29-18-46l0-85c0-12 9-21 21-21z"/></svg> </span>
             </a>
           </button>
           <button style={{borderRadius: '50%', color: 'white', background: '#1cac1d', fontSize: '11px', width: '55px', height: '55px', position: 'fixed', top: '190px', right: '50px'}}>
-            <a download href="http://locahost:3000/Zuma.rar" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
+            <a download href="/Zuma.rar" style={{marginRight: "auto",  fontSize: '11px', textAlign: 'center', display:'flex', flexDirection: 'column'}} className="button">
               <i className='fa fa-gamepad' sytle={{fontSize: '16px'}}></i>
               <span>Zuma&nbsp;<svg xmlns="http://www.w3.org/2000/svg" fill="white" style={{width:'11px'}} viewBox="0 0 512 512"><path d="m277 64c0-12-9-21-21-21-12 0-21 9-21 21l0 204-71-70c-8-8-21-8-30 0-8 9-8 22 0 30l107 107c0 0 0 0 0 0 2 2 4 4 7 5 2 1 5 1 8 1 0 0 0 0 0 0 0 0 0 0 0 0 6 0 11-2 15-6m0 0l107-107c8-8 8-21 0-30-9-8-22-8-30 0l-71 70 0-204m-213 235c12 0 21 9 21 21l0 85c0 6 3 11 7 15 4 4 9 7 15 7l298 0c6 0 11-3 15-7 4-4 7-9 7-15l0-85c0-12 9-21 21-21 12 0 21 9 21 21l0 85c0 17-6 34-18 46-12 12-29 18-46 18l-298 0c-17 0-34-6-46-18-12-12-18-29-18-46l0-85c0-12 9-21 21-21z"/></svg> </span>
             </a>
