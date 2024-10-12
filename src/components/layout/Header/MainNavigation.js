@@ -94,7 +94,7 @@ const MainNavigation = () => {
           </Box>
           <Box sx={{marginLeft: "auto"}}>
             <button style={{borderRadius: '30px', color: 'white', background: '#1cac1d', fontSize: '11px'}}>
-              <a download href="https://github.com/test-web3-dev/destiny" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
+              <a target="empty" href="https://github.com/test-web3-dev/destiny" style={{marginRight: "auto",  fontSize: '11px'}} className="button">
                 Live Coding&nbsp;<i className='fa fa-code'></i> 
               </a>
             </button>
