@@ -27,7 +27,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <MainNavigation />
-      <main style={{marginTop: 90, marginBottom: 90}}>
+      <main style={{marginTop: 120, marginBottom: 90}}>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
